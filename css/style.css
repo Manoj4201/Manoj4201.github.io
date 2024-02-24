@@ -1036,13 +1036,13 @@ footer .menu a {
 
 
   .product-section {
-    max-width: 1248px;
-    margin: 45px 50px !important;
+    
+    margin: 45px 50px;
   }
 
   .product-sec-2 .step-1 {
     padding: 0 22px;
-    margin: 0 22px 0 !important;
+    margin: 0 22px 0 ;
   }
 
   .product-sec-3 {
@@ -1425,16 +1425,18 @@ footer .menu a {
 
 .product-sec-1 img {
   width: 100%;
+  height: 100%;
   max-width: 396px;
+  margin-left: 7px;
 }
 
 .product-sec-1 .step-1 {
-  width: 787px;
+  max-width: 787px;
   margin: 8px 33px 8px 25px;
 }
 
 .product-sec-2 .step-1 {
-  width: 805px;
+  max-width: 805px;
   margin: 37px 22px 87px;
 }
 
@@ -1450,7 +1452,8 @@ footer .menu a {
 }
 
 .product-sec-3 img {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .product-sec-1 {
@@ -1492,5 +1495,8 @@ footer .menu a {
 }
 .services-img img{
   width: 100%;
+  height: 100%;
+}
+.product-sec-2 img{
   height: 100%;
 }
